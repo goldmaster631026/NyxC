@@ -36,7 +36,7 @@ const Searchmodal = () => {
                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                   />
                 </svg>
-                {/* this is sectore of customers */}
+                
               </div>
               <input
                 className="peer h-full w-full outline-none text-base text-gray-700 pl-2 dark:bg-[#23323C] dark:text-white bg-inherit"
