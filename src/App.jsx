@@ -19,7 +19,7 @@ function App() {
             <Route path='/websites' element={<Websites />} />
             <Route path='/subscription' element={<Subscription />} />
             <Route path='/more' element={<More />} />
-            //commet
+           
           </Routes>
         </Layout>
       </SharedStateProvider>
