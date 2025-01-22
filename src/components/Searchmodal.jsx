@@ -57,9 +57,9 @@ const Searchmodal = () => {
               focusable="false"
               data-prefix="fal"
 
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
+              // aria-hidden="true"
+              // focusable="false"
+              // data-prefix="fal"
    
 
               data-icon="xmark"
