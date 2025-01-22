@@ -60,9 +60,9 @@ const Searchmodal = () => {
               aria-hidden="true"
               focusable="false"
               data-prefix="fal"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
+              // aria-hidden="true"
+              // focusable="false"
+              // data-prefix="fal"
 
               data-icon="xmark"
               className="svg-inline--fa fa-xmark w-[14.25px]"
