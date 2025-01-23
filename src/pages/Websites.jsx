@@ -12,7 +12,7 @@ const Websites = () => {
         <TradingView className='w-full' />
         <div className='px-2 mt-3'>
           <TabComponent />
-          {/* <TabComponent /> */}
+          
         </div>
       </div>
       <Favourite />
