@@ -205,7 +205,10 @@ export const Tailwind = {
           'text-slate-700 border-transparent',
           'focus:outline-0 focus:outline-offset-0 focus:shadow-[0_0_0_0.2rem_rgba(191,219,254,1)]', //Focus
           'hover:text-slate-700 hover:bg-gray-300/20', //Hover
-          'dark:text-white/70' // Dark Mode
+          'dark:text-white/70' // Dark Mode 
+          // 'focus:outline-0 focus:outline-offset-0 focus:shadow-[0_0_0_0.2rem_rgba(191,219,254,1)]', //Focus
+          // 'hover:text-slate-700 hover:bg-gray-300/20', //Hover
+          // 'dark:text-white/70' // Dark Mode 
         )
       },
       roweditorcancelbutton: {
