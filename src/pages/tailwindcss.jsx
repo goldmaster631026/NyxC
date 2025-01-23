@@ -62,7 +62,7 @@ export const Tailwind = {
     footer: {
       className: classNames(
         'bg-slate-50 text-slate-700 border-t-0 border-b border-x-0 border-gray-300 font-bold p-4',
-        'dark:border-blue-900/40 dark:text-white/80 dark:bg-gray-900' // Dark Mode
+        'dark:border-blue-900/40 dark:text-white/80 dark:bg-gray-900' // Dark Mode Dark Mode
       )
     },
     column: {
@@ -70,7 +70,7 @@ export const Tailwind = {
         className: classNames(
           'text-left border-0 border-b border-solid border-gray-300 dark:border-blue-900/40 font-bold',
           'transition duration-200',
-          context?.size === 'small' ? 'p-2' : context?.size === 'large' ? 'p-5' : 'p-4', // Size
+          context?.size === 'small' ? 'p-2' : context?.size === 'large' ? 'p-5' : 'p-4', // Size Size
           context.sorted ? 'bg-blue-50 text-blue-700' : 'bg-slate-50 text-slate-700', // Sort
           context.sorted ? 'dark:text-white/80 dark:bg-blue-300' : 'dark:text-white/80 dark:bg-gray-900', // Dark Mode
           {
