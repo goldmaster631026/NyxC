@@ -90,10 +90,7 @@ export const Tailwind = {
             'sticky bg-inherit': props && (props.frozen || props.frozen === ''), // Frozen Columns
             'border-x border-y': context.showGridlines
           }
-          // {
-          //   'sticky bg-inherit': props && (props.frozen || props.frozen === ''), // Frozen Columns
-          //   'border-x border-y': context.showGridlines
-          // }
+
         )
       }),
       footercell: ({ context }) => ({
