@@ -85,11 +85,15 @@ export const Tailwind = {
         className: classNames(
           'text-left border-0 border-b border-solid border-gray-300',
           context?.size === 'small' ? 'p-2' : context?.size === 'large' ? 'p-5' : 'p-4', // Size
-          'dark:text-white/80 dark:border-blue-900/40', // Dark Mode
+          'dark:text-white/80 dark:border-blue-900/40', // Dark Mode 
           {
             'sticky bg-inherit': props && (props.frozen || props.frozen === ''), // Frozen Columns
             'border-x border-y': context.showGridlines
           }
+          // {
+          //   'sticky bg-inherit': props && (props.frozen || props.frozen === ''), // Frozen Columns
+          //   'border-x border-y': context.showGridlines
+          // }
         )
       }),
       footercell: ({ context }) => ({
