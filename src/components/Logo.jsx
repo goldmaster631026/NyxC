@@ -7,7 +7,7 @@ const Logo = () => {
       <div className='flex items-center'>
         <img src={logo} className='h-7 mr-3 ' alt='Nyxcipher logo' />
         <span className='text-xl font-medium whitespace-nowrap dark:text-white'>
-          Nyxcipher
+          Nyxcipher-Business-Xo
         </span>
       </div>
 
