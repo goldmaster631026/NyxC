@@ -6,6 +6,7 @@ const Projects = () => {
     <div className="h-full">
       <DataTable />
     </div>
+    // DataTable
   )
 };
 
