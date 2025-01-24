@@ -64,10 +64,7 @@ export const Tailwind = {
         'bg-slate-50 text-slate-700 border-t-0 border-b border-x-0 border-gray-300 font-bold p-4',
         'dark:border-blue-900/40 dark:text-white/80 dark:bg-gray-900' // Dark Mode Dark Mode
       )
-      // className: classNames(
-      //   'bg-slate-50 text-slate-700 border-t-0 border-b border-x-0 border-gray-300 font-bold p-4',
-      //   'dark:border-blue-900/40 dark:text-white/80 dark:bg-gray-900' // Dark Mode Dark Mode
-      // )
+ 
     },
     column: {
       headercell: ({ context, props }) => ({
