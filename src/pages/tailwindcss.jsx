@@ -56,7 +56,7 @@ export const Tailwind = {
     tfoot: ({ context }) => ({
       className: classNames({
         'bg-slate-50 bottom-0 z-[1]': context.scrollable
-        //context.scrollabler
+        //context.scrollable
       })
     }),
     footer: {
